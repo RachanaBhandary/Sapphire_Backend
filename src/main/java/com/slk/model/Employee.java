@@ -4,7 +4,7 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public class Employee {
-	
+	private String myname;
 	private String empid;
 	private String empname;
 	private long empcontact;

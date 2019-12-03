@@ -16,4 +16,5 @@ public interface EmployeeDAO {
 	public List<Customer> getAllCustomer() throws SQLException;
 	public List<Transaction> getAllTransaction() throws SQLException;
 	public Employee updateAgent(Long id, Employee e);
+
 }
